@@ -21,7 +21,11 @@ CREATE TABLE IF NOT EXISTS file_index (
 
 ## Run:
 `searchKeyword.py` contains sample python which could be used to find keywords from the database.
-You can modify or create new python script to customize logic
+You can modify or create new python script to customize logic (or simply replace keywords)
+
+```
+python searchKeyword.py
+```
 
 ## Map contract with Immunefi program:
 The resulting contract from keyword search can be mapped to there respective program using HTML within Program List folder
